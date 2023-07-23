@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'serapp';
+  count=0;
+  inc(){
+    this.count++;
+  }
+  dec(){
+    this.count--;
+  }
 }

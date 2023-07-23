@@ -1,1 +1,8 @@
-<h1>Hello edupoly</h1>
+<h1 [style]="count%2===0?'color:red':'color:green'">Count:{{count}}</h1>
+<button (click)="inc()">Increment</button>
+<button (click)="dec()">Decrement</button>
+<!-- 
+  1. data binding
+  2. event binding
+  3. property binding
+ -->
