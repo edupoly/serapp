@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'serapp';
+  newtodo='';
+  todos=['clean car','make website','get bike ready']
+  addTodo(){
+    this.todos.push(this.newtodo);
+    this.newtodo='';
+  }
 }
